@@ -3,6 +3,7 @@ package ArrayCollection;
 
 
 import java.util.ArrayList;
+import java.util.ListIterator;
 
 public class ArrrayList {
 
@@ -14,10 +15,19 @@ public class ArrrayList {
 		a.add(56);
 		a.add(2,100);
 		System.out.println(a.size());
-		System.out.println(a);
-		a.set(2,1111111111);
-		System.out.println(a);
-		System.out.println(a.contains(10));
+		ListIterator<Integer>a1=a.listIterator();
+		System.out.println("Element in forword direction.....");
+		while( a1.hasNext())
+		{
+	System.out.print(a1.next()+"\t");
+	
+		}
+		System.out.println("Element in Reverse direction......");
+		while(a1.hasPrevious())
+		{
+			System.out.print(a1.previous()+"\t");
+		}
+		
 	}
 }
 
