@@ -25,8 +25,9 @@ public class BabuleshotMaxi {
 			}
 			int x=a[a.length-1];
 			int y=a[a.length-2];
-			int z=x*y;
-			System.out.println(z);
+		System.out.println("_________");
+			System.out.println(x);
+			System.out.println(y);
 
 		}
 

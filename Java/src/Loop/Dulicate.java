@@ -7,16 +7,21 @@ public class Dulicate {
 
 	public static void main(String[] args) {
 
-		String names[] = { "java", "javas", "c++", "Java", "GRS", "GRS" };
+		String names[] = { "java", "javas", "c++", "java", "GRS", "GRS" };
 
-		Set store = new HashSet();
-
-		for (String name : names) {
-			if (store.add(name) == false)
-
-				System.out.println("DUPLICATE element=" + name);
+		for(int i=0;i<=names.length-1;i++)
+		{
+			for(int j=i+1;j<=names.length-1;j++)
+			{
+				if(names[i]==names[j])
+				{
+					System.out.println("Duplicate is="+names[j]);
+				}
+				
+			}
+			
 		}
-
+		
 	}
 
 }

@@ -11,6 +11,7 @@ public class Star1
 			{
 				System.out.print("@GRS");
 			}
+		
 			System.out.println();
 		}
 	}

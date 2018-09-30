@@ -2,9 +2,6 @@ package Loop;
 
 public class IfElse {
 
-
-
-
 		public static void main(String[] args) {
 			
 			String sDay = "Monday";

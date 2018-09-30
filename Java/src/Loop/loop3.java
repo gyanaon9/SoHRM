@@ -1,7 +1,6 @@
 package Loop;
 
 public class loop3 {
-
 	
 		public static void main(String[] args) {
 			 int Count = 0;
@@ -10,9 +9,11 @@ public class loop3 {
 				 Count = Count + 5;
 				 System.out.println("Count is ==> "+ Count);
 				 }
-
+			 
+			 System.out.println("__________==______________");
 			 int CountOnce = 25;
 			 System.out.println("<==== Next Count ====>");
+			 
 			 // This will not print count even once
 			 while(CountOnce < 25){
 				 CountOnce = CountOnce + 5;

@@ -8,8 +8,9 @@ public class IinterfaceR {
 		d.b1();
 		d.b2();
 		d.b3();
-		Iinterface.m();
-		d.U();
+		//Iinterface.m();
+	//	d.U();
+		System.out.println(d.a);
 		
 	}
 

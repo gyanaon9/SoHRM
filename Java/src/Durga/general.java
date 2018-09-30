@@ -9,8 +9,8 @@ public class general {
 			for(int j=0;j<3;j++)
 			{
 				if(i==j)
-				// continue;
-					break;
+				 continue;
+					//break;
 				System.out.println(i+"----"+j);
 			}
 
